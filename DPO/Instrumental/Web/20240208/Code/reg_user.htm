@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script>
+			$(function(){
+				$("#btn_go").click(function(){
+				
+					//Считывание пользовательского ввода в переменные
+					let user_name = $("#user_name").val();
+					let user_age = $("#user_age").val();
+					let user_email = $("#user_email").val();
+					let user_password = $("#user_password").val();
+					let user_confirm = $("#user_confirm").val();
+					
+					let errmsg="";
+					
+					//Сброс выделения с полей ввода
+					$("input").css("border-color","");
+					
+					//Проверка введённых пользователем значений
+					
+					//проверка поля Имя
+					if(user_name.trim()=="") {
+						errmsg+="Поле Имя не заполнено<br/>";
+						$("#user_name").css("border-color","red");
+					}
+					
+					//проверка поля Возраст
+					if(!/^[0-9]{2,3}$/.test(user_age)) {
+						errmsg+="Поле Возраст имеет неверный формат<br/>";
+						$("#user_age").css("border-color","red");
+					}else if(user_age < 18 || user_age > 150 ) {
+						errmsg+="Поле Возраст выходит за допустимые границы<br/>";
+						$("#user_age").css("border-color","red");
+					}
+					
+					//проверка поля Email
+					if(!/^[A-Za-z1-9]+@[A-Za-z]+\.[A-Za-z]+$/.test(user_email)) {
+						errmsg+="Поле Email имеет неверный формат<br/>";
+						$("#user_email").css("border-color","red");
+					}
+					
+					//проверка пароля
+					if(user_password!=user_confirm) {
+						errmsg+="Пароль не совпадает с подтверждением<br/>";
+						$("#user_password").css("border-color","red");
+						$("#user_confirm").css("border-color","red");
+					}
+					
+					//Если есть сообщения об ошибках - вывод их на странице					
+					$("#errmsg").html(errmsg);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="errmsg" style="color: red"></div>
+		Имя:<br/>
+		<input id="user_name" type="text" size="50"/><br/>
+		Возраст:<br/>
+		<input id="user_age" type="text" size="3"/><br/>
+		Email:<br/>
+		<input id="user_email" type="text" size="15"/><br/>
+		Пароль:<br/>
+		<input id="user_password" type="password" size="10"/><br/>
+		Подтвержение пароля:<br/>
+		<input id="user_confirm" type="password" size="10"/><br/>
+		<input id="btn_go" type="submit" value="Зарегистрироваться"/>
+	</body>
+</html>

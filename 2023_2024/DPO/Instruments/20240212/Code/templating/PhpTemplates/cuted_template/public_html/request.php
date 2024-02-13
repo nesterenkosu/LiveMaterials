@@ -1,0 +1,3 @@
+<?require_once("$_SERVER[DOCUMENT_ROOT]/../templates/header.inc.php");?>
+					Здесь будет онлайн-заявка...
+<?require_once("$_SERVER[DOCUMENT_ROOT]/../templates/footer.inc.php");?>

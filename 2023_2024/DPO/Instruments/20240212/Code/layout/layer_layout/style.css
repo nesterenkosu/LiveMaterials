@@ -1,0 +1,57 @@
+div#logo {
+	text-align: center;
+}
+
+div#topmenu, div#footer {
+	background-color: #DFF;
+}
+
+div#topmenu, div#footer, div#main, div#sidebar {
+	border-style: solid;
+	border-width: 1px;
+}
+
+div#sidebar {
+	background-color: #EFE;
+	width: 20%;
+	float: right;
+	border-top: none;
+	border-right: none;
+}
+
+div#topmenu ul{
+	overflow-y: hidden; /*Растягивание родителя по высоте потомка*/
+	padding: 0px;
+}
+
+div#topmenu ul {
+	list-style: none;
+}
+
+div#topmenu ul li{
+	float: left;
+	margin: 0 27px;
+}
+
+div#main {
+	overflow-y: hidden;
+}
+
+div#sidebar, div#content{
+	padding: 20px;
+}
+
+div#content {
+	margin-right: 23%;	
+}
+
+div#content p {
+	text-align: justify;
+	text-indent: 20px;
+}
+
+
+div#footer {
+	text-align: center;
+	padding: 15px;
+}

@@ -1,0 +1,20 @@
+div#header ul {
+	list-style: none;
+	float: right;
+}
+
+div#header ul li{
+	float: left;
+	margin: 0 31px;
+}
+
+div#header ul li a{ 
+	text-transform: uppercase;
+	padding: 27px 10px;
+	text-decoration: none;
+	color: #000000;
+}
+
+div#header ul li a:hover{
+	background-color: #ffea00;
+}

@@ -1,0 +1,5 @@
+<connectionStrings>
+	<!--add name="WindowsFormsApp1.Properties.Settings.ActionsDBConnectionString"
+        connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\BOX\Live\20240215\DownloadActions_WCF\WindowsFormsApp1\bin\Debug\ActionsDB.mdb"
+        providerName="System.Data.OleDb" /-->
+</connectionStrings>

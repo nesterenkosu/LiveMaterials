@@ -1,0 +1,56 @@
+#one {
+	background-color: red;
+	float: left;
+	width: 100px;
+	padding-left: 10px;
+}
+
+#two {
+	background-color: green;
+}
+
+#three {
+	background-color: blue;
+}
+
+#four {
+	background-color: yellow;
+	position: absolute;
+	top: 2px; /*X*/
+	left: 10px;	/*Y*/
+}
+
+#five {
+	background-color: magenta;
+	position: relative;
+	top: 3px;
+	left: 7px;
+}
+
+#six {
+	background-color: cyan;
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	top: 20px;
+	left: 20px;
+}
+
+#seven {
+	background-color: pink;
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	top: 25px;
+	left: 25px;
+}
+
+#eight {
+	background-color: gray;
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	top: 30px;
+	left: 30px;
+}
+

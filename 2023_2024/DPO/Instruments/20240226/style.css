@@ -1,0 +1,19 @@
+div#hello_text {
+	color: red;
+}
+
+span {
+	background-color: green;
+}
+
+div {
+	background-color: blue;
+}
+
+h1 {
+	display: inline;
+}
+
+a {
+	display: block;
+}

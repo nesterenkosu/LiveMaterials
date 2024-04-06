@@ -1,0 +1,10 @@
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\bin\Debug\LibraryClientSoap.exe.config
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\bin\Debug\LibraryClientSoap.exe
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\bin\Debug\LibraryClientSoap.pdb
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\obj\Debug\LibraryClientSoap.csproj.AssemblyReference.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\obj\Debug\LibraryClientSoap.Form1.resources
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\obj\Debug\LibraryClientSoap.Properties.Resources.resources
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\obj\Debug\LibraryClientSoap.csproj.GenerateResource.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\obj\Debug\LibraryClientSoap.csproj.CoreCompileInputs.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\obj\Debug\LibraryClientSoap.exe
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240307\LibraryClientSoap\LibraryClientSoap\obj\Debug\LibraryClientSoap.pdb

@@ -1,0 +1,20 @@
+HTML, CSS
+JavaScript
+PHP
+
+MySQL - СУБД, наиболее часто используемая с PHP
+
+PHP чаще всего используется в связке LAMP
+Linux
+Apache
+MySQL
+PHP
+
+phpMyAdmin - среда администрирования СУБД MySQL
+В Denwer она доступна по адресу:
+http://localhost/tools/phpmyadmin/
+
+Среды администрирования MySQL
+phpMyAdmin 
+MySQL Workbench
+DBForge for MySQL

@@ -1,0 +1,15 @@
+XML-RPC
+SOAP
+REST
+
+JSON - JavaScript Object Notation
+
+Создание клиентов RestAPI на Visual Studio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Использование класса HttpClient (самый низкоуровневый подход)
+- Использование Windows Communication Foundation (WCF)
+
+
+LINQ - Language Integrated Query - SQL-подобный язык запросов, интегрированный в языки платформы .NET Framework (C#, VB.NET)
+
+LINQ работает с массивами объектов, поверх этого механизма строится работа с данными других форматов (базы данных, XML-файлы, JSON-файлы ...)

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Регистрация пользователя</title>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="jquery-3.7.1.min.js"></script>
+		<script>
+			//Обработчик события окончания загрузки страницы
+			$(function(){
+				//Обработчик события нажатия на кнопку "Зарегистрироваться"
+				$("#btn_go").click(function(){
+					//Присваивание переменным значений, полученных из элементов управления
+					let user_name = $("#user_name").val();
+					let user_age = $("#user_age").val();
+					let user_zanyat = $(".zanyat:checked").val();
+					let user_city = $("#user_city").val();
+					let user_password = $("#user_password").val();
+					let user_confirmation = $("#user_confirmation").val();
+					
+					//Регулярные выражения для проверки вводимых значений
+					let reg_age = /^[0-9]+$/;
+					
+					//alert("Hello, "+user_name+" !");
+					
+					//Проверка заполненности полей и корректности введённых значений
+					
+					let errmsg = "";//Переменная для хранения сообщения об ошибке
+					
+					//По умолчанию у всех элементов сбрасывается выделение 
+					$("input,select").css("border-color","");
+					$(".error_list").removeClass("error_list");
+					
+					
+					//проверка поля Имя
+					if(user_name.trim() == "") {
+						errmsg+="Не заполнено поле [Имя]<br/>";
+						$("#user_name").css("border-color","red");
+					}
+					
+					//проверка поля Возраст
+					if(!reg_age.test(user_age)) {
+						errmsg+="Поле [Возраст] содержит недопустимые символы<br/>";
+						$("#user_age").css("border-color","red");
+					}else if(user_age < 18 || user_age > 150)	{
+						errmsg+="Значение поля [Возраст] находится в недопустимом диапазоне <br/>";
+						$("#user_age").css("border-color","red");
+					}					
+					
+					//проверка поля Уровень занятости
+					if($(".zanyat:checked").length==0) {
+						errmsg+="Не выбран уровень занятости<br/>";
+						$("#zanyat").addClass("error_list");
+					}
+					
+					//проверка поля Знание языков программирования
+					if($(".proglang:checked").length==0) {
+						errmsg+="Не выбраны языки программирования<br/>";
+						$("#proglang").addClass("error_list");;
+					}
+					
+					//проверка поля Город
+					if(user_city < 0) {
+						errmsg+="Не заполнено поле [Город] <br/>";
+						$("#user_city").css("border-color","red");
+					}
+					
+					//проверка поля Иностранные языки
+					if($("#lang option:selected").length==0) {
+						errmsg+="Не указаны иностранные языки<br/>";
+						$("#lang").css("border-color","red");
+					}
+					
+					//проверка поля Пароль и Подтверждение пароля
+					if(user_password.length < 10) {
+						errmsg+="Пароль слишком короткий<br/>";
+						$("#user_password").css("border-color","red");
+					}else if(user_password != user_confirmation){
+						errmsg+="Пароль не совпадает с подтверждением<br/>";
+						$("#user_password,#user_confirmation").css("border-color","red");
+					}
+					
+					if(errmsg!="") {
+						//Вывод сообщения об ошибке
+						$("#errmsg").html(errmsg);
+					}
+					
+					
+						
+					
+					return false;
+				});				
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Регистрация пользователя</h1>
+		<hr/>
+		<div id="errmsg"></div>
+		<form>
+		Имя:<br/>
+		<input id="user_name" type="text"/><br/>
+		Возраст:<br/>
+		<input id="user_age" type="text" size="3"/><br/>
+		Уровень занятости:<br/>
+		<ul id="zanyat" style="list-style: none;">
+		<li><input id="school" class="zanyat" name="zanyat" type="radio"/><label for="school">Школьник</label></li>
+		<li><input id="student" class="zanyat" name="zanyat" type="radio"/><label for="student">Студент</label></li>
+		<li><input id="employee" class="zanyat" name="zanyat" type="radio"/><label for="employee">Работающий</label></li>
+		</ul>
+		Знание языков программирования:<br/>
+		<ul id="proglang" style="list-style: none;">
+		<li><input id="cpp" class="proglang" type="checkbox"/><label for="cpp">C++</label></li>
+		<li><input id="vb"  class="proglang" type="checkbox"/><label for="vb">VB</label></li>
+		<li><input id="php" class="proglang" type="checkbox"/><label for="php">PHP</label></li>
+		</ul>
+		Город:<br/>
+		<select id="user_city">
+			<option value="-1">--Выберите город--</option>
+			<option value="1">Москва</option>
+			<option value="2">Екатеринбург</option>
+			<option value="3">Челябинск</option>
+		</select><br/>
+		Знание иностранных языков:<br/>
+		<select id="lang" multiple>			
+			<option>Английский</option>
+			<option>Французский</option>
+			<option>Немецкий</option>
+		</select><br/>
+		О себе:<br/>
+		<textarea cols="50" rows="10"></textarea><br/>
+		Пароль:<br/>
+		<input id="user_password" type="password"/><br/>
+		Подтверждение пароля:<br/>
+		<input id="user_confirmation" type="password"/><br/><hr/>
+		<input id="btn_go" type="submit" value="Зарегистрироваться"/>
+		<input type="reset" value="Очистить форму"/>
+		</form>
+	</body>
+</html>

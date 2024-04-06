@@ -1,0 +1,25 @@
+HTML
+CSS - стили
+JavaScript - язык программирования логики
+
+Два способа форматирования таблиц
+
+С помощью HTML-атрибутов
+<table border="1" cellspacing="0" cellpadding="2px" width="100%">
+
+С помощью CSS
+table {
+	width: 100%;
+	border-style: solid;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td, th {
+	border-style: solid;
+	padding: 2px;
+}
+
+Элементы управления на веб-страницах
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

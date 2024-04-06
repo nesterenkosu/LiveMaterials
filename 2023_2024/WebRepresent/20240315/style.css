@@ -1,0 +1,8 @@
+ul.error_list {
+	border-style: solid;
+	border-color: red;
+}
+
+div#errmsg {
+	color: red;
+}

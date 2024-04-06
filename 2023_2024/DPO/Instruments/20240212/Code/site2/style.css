@@ -1,11 +1,33 @@
+div#mainholder {
+	width: 1633px;
+	margin: 15px;
+	background-color: #f6f6f6;
+	overflow-y: hidden;
+}
+
+div#header {
+	height: 160px;
+	
+}
+
+a#logo {
+	margin-top: 22px;
+	margin-left: 119px;
+	display: block;
+	float: left;
+}
+
 div#header ul {
 	list-style: none;
-	float: right;
+	float: right;	
+	margin: 76px 0 0 0;
+	padding: 0px;
 }
 
 div#header ul li{
 	float: left;
 	margin: 0 31px;
+	line-height: 0.68;
 }
 
 div#header ul li a{ 
@@ -13,8 +35,185 @@ div#header ul li a{
 	padding: 27px 10px;
 	text-decoration: none;
 	color: #000000;
+	font-family: 'Code Light';
 }
 
 div#header ul li a:hover{
 	background-color: #ffea00;
+}
+
+div#banner {
+	background: url('images/Banner.png') no-repeat;
+	height: 150px;
+	margin-bottom: 78px;
+}
+
+div#main {
+	overflow-y: hidden;
+}
+
+div#content {
+	float: left;
+	width: 1130px;
+}
+
+
+div#content h1 span{
+	background-color: #424147;
+	color: #ffea00;
+	font-family: 'Century Gothic';
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: normal;		
+	padding: 9px 18px;
+}
+
+div#subcontent {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+ul#recent_projects {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#recent_projects li {
+	float: left;
+	margin-right: 10px;
+}
+
+div#sidebar {
+	width: 473px;
+	margin-left: 1160px;
+}
+
+div.sidebar_block {
+	background-color: #424147;
+	padding: 35px;
+	margin-bottom: 30px;
+	overflow-y: hidden;
+}
+
+div.sidebar_block h1 {
+	font-family: 'Century Gothic';
+	color: #ffea00;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+ul#project_details {
+	list-style: none;
+	list-style-image: url('images/list_mark.png');
+}
+
+ul#project_details li{
+	margin-bottom: 16px;
+	padding-left: 16px;
+	
+}
+
+ul#project_details a{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+	position: relative;
+	top: -9px;
+}
+
+ul#popular_posts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul#popular_posts li{
+	margin-bottom: 25px;
+}
+
+ul#popular_posts li:last-child{
+	margin-bottom: 0px;
+}
+
+ul#popular_posts li div.maintitle {
+	min-height: 51px;
+}
+
+ul#popular_posts li div.maintitle a {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Century Gothic';
+}
+
+ul#popular_posts li div.like {	
+	text-align: right;
+	font-family: 'Century Gothic';
+}
+
+ul#popular_posts li div.like a,  ul#popular_posts li div.like span{
+	color: #ffea00;
+}
+
+ul#popular_posts li div.like a {
+	text-decoration: none;
+}
+
+ul#popular_posts li img.preview {
+	float: left;
+	margin-right: 10px;
+}
+
+ul#popular_posts li div.like img {
+	margin-right: 3px;
+}
+
+ul#tags {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#tags li{
+	float: left;
+	background-color: #ffea00;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	padding: 6px;
+	font-family: 'Century Gothic';
+}
+
+ul#tags li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #424147;
+}
+
+div#bottom {
+	background-color: #414146;
+	overflow-y: hidden;
+}
+
+div#bottom h1 {
+	color: #FFFFFF;
+	font-family: 'Century Gothic';
+}
+
+div.bottom_cols {
+	float: left;
+	width: 544px;
+	padding-left: 119px;
+	overflow-y: hidden;
+}
+
+a.learn_more {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 17px 13px;
+	text-decoration: none;
+	border-color: #ffea00;
+	border-bottom-style: solid;
 }

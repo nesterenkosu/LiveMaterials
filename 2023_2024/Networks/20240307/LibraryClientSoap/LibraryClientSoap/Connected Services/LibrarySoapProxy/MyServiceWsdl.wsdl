@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" name="MyServiceWsdl" targetNamespace="http://localhost/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://localhost/">
+      <xs:element name="AddBook_Request">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="Author" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Title" type="xs:string" />
+            <xs:element minOccurs="1" maxOccurs="1" name="Year" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="AddBook_Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="answer" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetBooks_Request">
+        <xs:complexType />
+      </xs:element>
+      <xs:element name="GetBooks_Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="answer" type="tns:SOAP_Book" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="SOAP_Book">
+        <xs:sequence>
+          <xs:element minOccurs="1" maxOccurs="1" name="Author" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Title" type="xs:string" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Year" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </types>
+  <message name="AddBook_RequestMessage">
+    <part name="parameters" element="tns:AddBook_Request" />
+  </message>
+  <message name="AddBook_ResponseMessage">
+    <part name="parameters" element="tns:AddBook_Response" />
+  </message>
+  <message name="GetBooks_RequestMessage">
+    <part name="parameters" element="tns:GetBooks_Request" />
+  </message>
+  <message name="GetBooks_ResponseMessage">
+    <part name="parameters" element="tns:GetBooks_Response" />
+  </message>
+  <portType name="MyServicePortType">
+    <operation name="AddBook">
+      <input message="tns:AddBook_RequestMessage" />
+      <output message="tns:AddBook_ResponseMessage" />
+    </operation>
+    <operation name="GetBooks">
+      <input message="tns:GetBooks_RequestMessage" />
+      <output message="tns:GetBooks_ResponseMessage" />
+    </operation>
+  </portType>
+  <binding name="MyServiceBinding" type="tns:MyServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="AddBook">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetBooks">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="MyService">
+    <port name="MyServicePort" binding="tns:MyServiceBinding">
+      <soap:address location="http://mylibrary.ru/webapi/soap/server.php" />
+    </port>
+  </service>
+</definitions>

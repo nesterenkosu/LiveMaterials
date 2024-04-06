@@ -1,0 +1,14 @@
+#one {
+	background-color: red;
+}
+
+#two {
+	background-color: green;
+	float: left;	
+	width: 30px;	
+}
+
+#three {
+	background-color: blue;
+	margin-left:31px;
+}

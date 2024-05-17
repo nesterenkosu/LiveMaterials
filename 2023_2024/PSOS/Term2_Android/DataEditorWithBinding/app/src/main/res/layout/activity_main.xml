@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="handlers"
+            type="com.example.dataeditorwithbinding.MainActivity" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <Button
+
+            android:text="Пользователи"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:onClick="@{()-> handlers.show_list_users()}"/>
+
+        <Button
+
+            android:text="Языки программирования"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{()-> handlers.show_list_languages()}"/>
+
+        <Button
+
+            android:text="Настройки"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{()-> handlers.show_settings()}"/>
+
+    </LinearLayout>
+</layout>

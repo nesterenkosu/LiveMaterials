@@ -1,0 +1,6 @@
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240502_NetworksDotNet\ToByteFromByte\ToByteFromByte\bin\Debug\ToByteFromByte.dll
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240502_NetworksDotNet\ToByteFromByte\ToByteFromByte\bin\Debug\ToByteFromByte.pdb
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240502_NetworksDotNet\ToByteFromByte\ToByteFromByte\obj\Debug\ToByteFromByte.csproj.AssemblyReference.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240502_NetworksDotNet\ToByteFromByte\ToByteFromByte\obj\Debug\ToByteFromByte.csproj.CoreCompileInputs.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240502_NetworksDotNet\ToByteFromByte\ToByteFromByte\obj\Debug\ToByteFromByte.dll
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2023_2024\Networks\20240502_NetworksDotNet\ToByteFromByte\ToByteFromByte\obj\Debug\ToByteFromByte.pdb

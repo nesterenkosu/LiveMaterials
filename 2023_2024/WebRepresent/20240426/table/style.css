@@ -1,0 +1,16 @@
+#header,#footer {
+	background-color: cyan;
+}
+
+#footer {
+	padding: 30px;
+}
+
+#sidebar {
+	background-color: lightgreen;
+	vertical-align: top;
+}
+
+#sidebar ul{
+	list-style: none;
+}

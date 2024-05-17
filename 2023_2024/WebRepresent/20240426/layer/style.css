@@ -1,0 +1,23 @@
+#header, #footer {
+	text-align: center;
+	background-color: cyan;
+	padding: 30px;
+}
+
+#footer {
+	
+}
+
+#content {
+	margin-right: 250px;
+}
+
+#sidebar {
+	float: right;
+	background-color: lightgreen;
+	width: 250px;
+}
+
+#sidebar ul{
+	list-style: none;
+}

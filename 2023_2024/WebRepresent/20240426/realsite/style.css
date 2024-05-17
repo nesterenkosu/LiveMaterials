@@ -1,0 +1,177 @@
+div#container {
+	background-color: #f6f6f6;
+	width: 1633px;
+	margin: 15px auto; /*Выравнивание по середине*/
+}
+
+div#top_block {
+	height: 160px;
+}
+
+a#logo,a#logo:hover {
+	text-decoration: none;
+	border-color: #f6f6f6;
+}
+
+a#logo {
+	margin-top: 22px;
+	margin-left: 119px;
+	display: block;
+	float: left;
+}
+
+ul#topmenu {
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin-top: 67px;
+	margin-left: 0;
+}
+
+ul#topmenu li{
+	float: left;
+	margin: 0 30px;
+}
+
+ul#topmenu li a{
+	padding: 28px 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Myriad Pro';
+	color: black;
+	font-size: 16pt;
+}
+
+ul#topmenu li a:hover{
+	background-color: #ffea00;
+}
+
+div#banner {
+	background: url('images/banner.png') no-repeat;
+	height: 150px;
+}
+
+div#main {
+	overflow-y: hidden; /*Растяжение внешнего блока вместе с содержимым внутри него*/
+	margin-top: 78px;
+}
+
+div#content {
+	background-color: red;
+	margin-right: 503px;
+}
+
+div#sidebar {
+	/*background-color: blue;*/
+	float: right;
+	width: 473px;
+}
+
+div.gray_block {
+	background-color: #424147;
+	padding: 35px;
+	margin-bottom: 30px;
+	overflow-y: hidden;
+}
+
+div.gray_block h1 {
+	color: #ffea00;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 20pt;
+	font-family: 'Century Gothic';
+	padding: 0;
+	margin: 0;
+	margin-bottom: 35px;
+}
+
+ul.image_mark {
+	margin: 0;
+	padding: 0;
+	list-style-image: url('images/image_mark.png');
+	margin-left: 37px;
+}
+
+ul.image_mark li {
+	margin-top: 9px;
+}
+
+ul.image_mark li a {
+	font-family: 'Century Gothic';
+	font-size: 16pt;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	position: relative;
+	top: -9px;
+	left: 8px;
+}
+
+ul#popular_posts {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#popular_posts li{
+	overflow-y: hidden;
+	margin-bottom: 25px;
+}
+
+ul#popular_posts img.preview {
+	float: left;
+	
+}
+
+ul#popular_posts div.item_header {
+	min-height: 53px;
+}
+
+ul#popular_posts div.bottom_note {
+	float: right;
+}
+
+ul#popular_posts div.list_right_col {
+	margin-left: 110px;
+}
+
+ul#popular_posts a.main {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-family: 'Century Gothic';
+	position: relative;
+	top: -3px;
+}
+
+ul#popular_posts span.post_date {
+	color: #ffea00;
+	font-size: 12px;
+	font-family: 'Century Gothic';
+}
+
+ul#popular_posts a.like {
+	text-decoration: none;
+	color: #ffea00;
+}
+
+ul#tags {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#tags li{
+	float: left;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	background-color: #ffea00;
+	padding: 6px 10px;
+}
+
+ul#tags li a{
+	text-decoration: none;
+	text-transform: uppercase;	
+	font-family: 'Century Gothic';
+}

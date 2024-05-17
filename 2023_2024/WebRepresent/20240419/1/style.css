@@ -1,0 +1,9 @@
+div#leftcol {
+	background-color: blue;
+	float: left;
+	width: 150px;
+}
+
+div#rightcol {
+	background-color: green;
+}

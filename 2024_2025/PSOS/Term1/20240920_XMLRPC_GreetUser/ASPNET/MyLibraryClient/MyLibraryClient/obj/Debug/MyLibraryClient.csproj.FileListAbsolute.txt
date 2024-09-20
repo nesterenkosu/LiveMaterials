@@ -1,0 +1,11 @@
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\bin\Debug\MyLibraryClient.exe.config
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\bin\Debug\MyLibraryClient.exe
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\bin\Debug\MyLibraryClient.pdb
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.AssemblyReference.cache
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.Form1.resources
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.Properties.Resources.resources
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.GenerateResource.cache
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.CoreCompileInputs.cache
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.CopyComplete
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.exe
+C:\Users\nesterenko_sy\source\repos\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.pdb

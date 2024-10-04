@@ -1,0 +1,8 @@
+
+			UPDATE books
+			SET Author=`Н.В. Гоголь`,
+				Title=`Мёртвые души`,
+				`Year`=`1985`
+			WHERE
+				ID=`2`
+		

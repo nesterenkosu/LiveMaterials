@@ -1,0 +1,7 @@
+C:\Users\nesterenko_sy\source\repos\WcfService9\WcfService9\bin\WcfService9.dll.config
+C:\Users\nesterenko_sy\source\repos\WcfService9\WcfService9\bin\WcfService9.dll
+C:\Users\nesterenko_sy\source\repos\WcfService9\WcfService9\bin\WcfService9.pdb
+C:\Users\nesterenko_sy\source\repos\WcfService9\WcfService9\obj\Debug\WcfService9.csprojAssemblyReference.cache
+C:\Users\nesterenko_sy\source\repos\WcfService9\WcfService9\obj\Debug\WcfService9.csproj.CoreCompileInputs.cache
+C:\Users\nesterenko_sy\source\repos\WcfService9\WcfService9\obj\Debug\WcfService9.dll
+C:\Users\nesterenko_sy\source\repos\WcfService9\WcfService9\obj\Debug\WcfService9.pdb

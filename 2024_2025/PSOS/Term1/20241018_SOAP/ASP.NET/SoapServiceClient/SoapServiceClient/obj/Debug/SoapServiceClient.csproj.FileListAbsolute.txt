@@ -1,0 +1,10 @@
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\bin\Debug\SoapServiceClient.exe.config
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\bin\Debug\SoapServiceClient.exe
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\bin\Debug\SoapServiceClient.pdb
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\obj\Debug\SoapServiceClient.csproj.AssemblyReference.cache
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\obj\Debug\SoapServiceClient.Form1.resources
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\obj\Debug\SoapServiceClient.Properties.Resources.resources
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\obj\Debug\SoapServiceClient.csproj.GenerateResource.cache
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\obj\Debug\SoapServiceClient.csproj.CoreCompileInputs.cache
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\obj\Debug\SoapServiceClient.exe
+C:\Users\nesterenko_sy\source\repos\SoapServiceClient\SoapServiceClient\obj\Debug\SoapServiceClient.pdb

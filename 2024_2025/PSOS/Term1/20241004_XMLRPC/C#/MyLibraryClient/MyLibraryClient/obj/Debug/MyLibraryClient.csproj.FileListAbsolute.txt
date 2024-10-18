@@ -20,3 +20,14 @@ D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRP
 D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.CopyComplete
 D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.exe
 D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.pdb
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\bin\Debug\MyLibraryClient.exe.config
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\bin\Debug\MyLibraryClient.exe
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\bin\Debug\MyLibraryClient.pdb
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.AssemblyReference.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.Form1.resources
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.Properties.Resources.resources
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.GenerateResource.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.CoreCompileInputs.cache
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.csproj.CopyComplete
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.exe
+D:\G_GITHUBMIRROR\nesterenkosu\LiveMaterials\2024_2025\PSOS\Term1\20241004_XMLRPC\C#\MyLibraryClient\MyLibraryClient\obj\Debug\MyLibraryClient.pdb

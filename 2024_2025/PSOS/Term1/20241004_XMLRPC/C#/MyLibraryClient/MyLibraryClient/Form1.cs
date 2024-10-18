@@ -20,11 +20,18 @@ namespace MyLibraryClient
         [XmlRpcMethod("mylibrary::log_in_user")]
         string LogInUser(string username, int age);
 
+        [XmlRpcMethod("mylibrary::create_book")]
+        int CreateBook(string author, string title, int year);
+        
+
         [XmlRpcMethod("mylibrary::list_books")]
         Book[] ListBooks();
 
         [XmlRpcMethod("mylibrary::update_book")]
         int UpdateBook(int ID, string author,string title,int year);
+
+        [XmlRpcMethod("mylibrary::delete_book")]
+        void DeleteBook(int ID);
     }
 
     public struct Book
@@ -37,6 +44,8 @@ namespace MyLibraryClient
 
     public partial class Form1 : Form
     {
+        bool is_edit = false;
+
         ILibraryServiceProxy proxy;
         public Form1()
         {
@@ -77,12 +86,43 @@ namespace MyLibraryClient
 
         private void button3_Click(object sender, EventArgs e)
         {
-            proxy.UpdateBook(
-                Convert.ToInt32(tb_ID.Text),
-                tb_Author.Text,
-                tb_Title.Text,
-                Convert.ToInt32(tb_Year.Text)
-            );
+            int book_id;
+
+            if(is_edit)
+                proxy.UpdateBook(
+                    Convert.ToInt32(tb_ID.Text),
+                    tb_Author.Text,
+                    tb_Title.Text,
+                    Convert.ToInt32(tb_Year.Text)
+                );
+            else
+            {
+                book_id = proxy.CreateBook(                    
+                    tb_Author.Text,
+                    tb_Title.Text,
+                    Convert.ToInt32(tb_Year.Text)
+                );
+
+                MessageBox.Show($"Книга успешно добавлена. id=[{book_id}] ");
+            }
+
+
+            this.bookBindingSource.DataSource = proxy.ListBooks();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            is_edit = false;
+            tb_ID.Text = "";
+            tb_Author.Text = "";
+            tb_Title.Text = "";
+            tb_Year.Text = "";
+            //this.bookBindingSource.DataSource = new Book();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            proxy.DeleteBook(((Book)(this.bookBindingSource.Current)).ID);
 
             this.bookBindingSource.DataSource = proxy.ListBooks();
         }

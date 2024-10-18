@@ -27,6 +27,26 @@
 			);		
 	}
 	
+	//CRUD - Create Read Update Delete
+	//Create
+	function create_book($params) {
+		global $db_link;		
+		
+		$author = mysqli_real_escape_string($db_link,$params->getParam(0)->getval());
+		$title = mysqli_real_escape_string($db_link,$params->getParam(1)->getval());
+		$year = (int)$params->getParam(2)->getval();
+		
+		mysqli_query($db_link,"
+			INSERT INTO books(Author,Title,Year) 
+			VALUES('$author','$title','$year')
+		");
+		
+		return new XML_RPC_Response(
+			new XML_RPC_Value(mysqli_insert_id($db_link),"int")
+		);
+	}
+	
+	//Read
 	function list_books(){
 		global $db_link;
 		
@@ -49,6 +69,7 @@
 		);
 	}
 	
+	//Update
 	function update_book($params) {
 		global $db_link;
 		
@@ -67,18 +88,20 @@
 				ID=$id
 		");
 		
-		file_put_contents("log.log","
-			UPDATE books
-			SET Author=`$author`,
-				Title=`$title`,
-				`Year`=`$year`
-			WHERE
-				ID=`$id`
-		");
-		
 		return new XML_RPC_Response(
 			new XML_RPC_Value(0,"int")
 		);
+	}
+	
+	//Delete
+	function delete_book($params){
+		global $db_link;
+		
+		$id = (int)$params->getParam(0)->getval();
+		
+		mysqli_query($db_link,"DELETE FROM books WHERE ID=$id");
+		
+		return new XML_RPC_Response(new XML_RPC_Value(0,"int"));
 	}
 	
 	//Конфигурация сайтового API
@@ -97,6 +120,13 @@
 			),
 			"docstring"=>"Функция, контролирующая возраст"
 		),
+		"mylibrary::create_book"=>Array(
+			"function"=>"create_book",
+			"signature"=>Array(
+				Array("int","string","string","int") //Формат аргументов и возвращаемого значения				
+			),
+			"docstring"=>"Функция, создающая новую книгу"
+		),
 		"mylibrary::list_books"=>Array(
 			"function"=>"list_books",
 			"signature"=>Array(
@@ -109,7 +139,14 @@
 			"signature"=>Array(
 				Array("int","int","string","string","int") //Формат аргументов и возвращаемого значения				
 			),
-			"docstring"=>"Функция, возвращающая список книг"
+			"docstring"=>"Функция, изменяющая информацию о книге"
+		),
+		"mylibrary::delete_book"=>Array(
+			"function"=>"delete_book",
+			"signature"=>Array(
+				Array("void","int") //Формат аргументов и возвращаемого значения				
+			),
+			"docstring"=>"Функция, удаляющая книгу"
 		)
 	);
 	

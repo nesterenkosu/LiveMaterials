@@ -1,0 +1,5 @@
+C:\Users\nesterenko_sy\source\repos\MyCalcLibrary\MyCalcLibrary\bin\Debug\MyCalcLibrary.dll
+C:\Users\nesterenko_sy\source\repos\MyCalcLibrary\MyCalcLibrary\bin\Debug\MyCalcLibrary.pdb
+C:\Users\nesterenko_sy\source\repos\MyCalcLibrary\MyCalcLibrary\obj\Debug\MyCalcLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nesterenko_sy\source\repos\MyCalcLibrary\MyCalcLibrary\obj\Debug\MyCalcLibrary.dll
+C:\Users\nesterenko_sy\source\repos\MyCalcLibrary\MyCalcLibrary\obj\Debug\MyCalcLibrary.pdb

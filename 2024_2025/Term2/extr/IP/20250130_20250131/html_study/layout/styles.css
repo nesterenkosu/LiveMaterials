@@ -1,0 +1,32 @@
+#sidebar {
+	background-color: blue;
+	float: left;
+	width: 139px;
+}
+
+#content {
+	background-color: red;
+	margin-left: 140px;
+}
+
+#sq1 {
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	
+	/*position: absolute;
+	left: 200px;
+	top: 100px;*/
+	
+}
+
+#sq2 {
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	
+	/*position: absolute;
+	left: 300px;
+	top: 200px;*/
+	
+}

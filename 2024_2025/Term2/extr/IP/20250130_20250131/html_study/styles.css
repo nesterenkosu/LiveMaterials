@@ -1,0 +1,25 @@
+h1 {
+	color: green;
+	font-family: Arial;
+}
+
+p {
+	text-align: justify;
+	text-indent: 20px;
+	margin: 0;
+}
+
+#unique_test {
+	color: red;
+	background-color: blue;
+}
+
+.one {
+	color: white;
+	background-color: green;
+}
+
+.two {
+	color: yellow;
+	background-color: red;
+}
